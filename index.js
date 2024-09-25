@@ -1,7 +1,10 @@
 const express = require("express");
 const userRouter = require("./router/user");
 const commentRouter = require("./router/user");
+// const { costumersRouter } = require("./router/costumers.router");
+
 const app = express();
+
 app.use(express.json());
 const port = 8080;
 app.use(commentRouter);
